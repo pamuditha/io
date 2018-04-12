@@ -59,3 +59,29 @@
 [debug] [2018-04-12T06:52:14.511Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/io-extended18/uploads/-L9scBTwy4IS4V76ZGoo?fileCount=268&message=  
   
  Thu Apr 12 2018 09:52:14 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-12T06:55:06.465Z] ----------------------------------------------------------------------
+[debug] [2018-04-12T06:55:06.468Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Edwin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-04-12T06:55:06.468Z] CLI Version:   3.18.1
+[debug] [2018-04-12T06:55:06.468Z] Platform:      win32
+[debug] [2018-04-12T06:55:06.468Z] Node Version:  v9.2.0
+[debug] [2018-04-12T06:55:06.469Z] Time:          Thu Apr 12 2018 09:55:06 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-12T06:55:06.469Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-12T06:55:06.502Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-12T06:55:06.502Z] > authorizing via signed-in user
+[debug] [2018-04-12T06:55:06.505Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/io-extended18  
+  
+ Thu Apr 12 2018 09:55:06 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-12T06:55:07.817Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-12T06:55:07.819Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/io-extended18/tokens  
+  
+ Thu Apr 12 2018 09:55:07 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-12T06:55:08.786Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'io-extended18'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2018-04-12T06:55:22.364Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/io-extended18/uploads/-L9scuGwjlkD6KvUrqH_?fileCount=298&message=  
+  
+ Thu Apr 12 2018 09:55:22 GMT+0300 (E. Africa Standard Time)
