@@ -33,11 +33,13 @@ self.addEventListener('fetch', function(event) {
                   'static/js/composite/home.mini.js',
                   'static/js/composite/resources.mini.js',
                   'static/js/composite/schedule.mini.js',
+                  '/images/*',// choose images to keep offline; just an example
                   'images/ioextendedeldoret18.JPG',
                   'images/ioattendeeseldoretextended.JPG',
                   'images/hashtag.gif',
                   'images/ioextendedeldoret18.JPG',
                   'images/ioextendedeldoret18.gif',
+                  'images/ioextendedeldoret18home.gif',
                   'favicon/ioextended18eldoret.png',
                   'images/gdgmoipromo.JPG',
                   'images/gdgmoihighlight.JPG',
