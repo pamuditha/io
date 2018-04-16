@@ -1,0 +1,26 @@
+[debug] [2018-04-16T05:55:56.244Z] ----------------------------------------------------------------------
+[debug] [2018-04-16T05:55:56.248Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Edwin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-04-16T05:55:56.249Z] CLI Version:   3.18.1
+[debug] [2018-04-16T05:55:56.249Z] Platform:      win32
+[debug] [2018-04-16T05:55:56.249Z] Node Version:  v9.2.0
+[debug] [2018-04-16T05:55:56.249Z] Time:          Mon Apr 16 2018 08:55:56 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-16T05:55:56.249Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-16T05:55:56.262Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-16T05:55:56.262Z] > authorizing via signed-in user
+[debug] [2018-04-16T05:55:56.265Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/io-extended18  
+  
+ Mon Apr 16 2018 08:55:56 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-16T05:55:57.374Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-16T05:55:57.374Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/io-extended18/tokens  
+  
+ Mon Apr 16 2018 08:55:57 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-16T05:55:58.296Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'io-extended18'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2018-04-16T05:56:10.683Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/io-extended18/uploads/-LAC0kY6g5EvjecwhrzS?fileCount=382&message=  
+  
+ Mon Apr 16 2018 08:56:10 GMT+0300 (E. Africa Standard Time)
